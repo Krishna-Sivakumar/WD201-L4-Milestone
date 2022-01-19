@@ -2,6 +2,20 @@ In This milestone, you will be extending the functionality of the project we wor
 
 The specification for this program is as follows,
 
+## Final Results
+
+**All tests passing:**
+
+![](tests_passing.png)
+
+**Website Screenshots:**
+
+![](s1.png)
+
+![](s2.png)
+
+![](s3.png)
+
 ## Specification
 
 You are asked to build the same project we worked on in the level and add two new features to it.
