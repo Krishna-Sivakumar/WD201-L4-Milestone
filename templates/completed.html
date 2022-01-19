@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Django Basics</title>
+    </head>
+    <body>
+        <h1>Completed Tasks:</h1>
+        {% if tasks|length > 0 %}
+        <ol>
+        {% for task in tasks %}
+            <li>{{task}}</li>
+        {% endfor %}
+        </ol>
+        {% else %}
+        <p>No tasks completed.</p>
+        {% endif %}
+    </body>
+</html>
