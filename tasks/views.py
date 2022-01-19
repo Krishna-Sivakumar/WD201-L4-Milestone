@@ -29,3 +29,9 @@ def complete_task_view(request, task_index):
 
 def completed_task_view(request):
     return render(request, "completed.html", {"tasks": completed_tasks})
+
+
+def all_tasks_view(request):
+    return render(
+        request, "all.html", {"current": current_tasks, "completed": completed_tasks}
+    )
